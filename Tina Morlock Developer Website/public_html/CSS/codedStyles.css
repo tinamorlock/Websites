@@ -1,0 +1,81 @@
+/* logo styles */
+
+.logo {
+    width: 50%;
+}
+
+/* styles for my icon with my picture */
+
+.tina {
+    height:10%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* styles for nav */
+
+img.ico {
+    height: 1vw;
+    text-decoration: none;
+}
+
+
+a.myNav {
+    text-decoration: none;
+    color: yellow;
+    background-color: deepskyblue;
+    padding: 10px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px lightblue, 0 1px 4px blue;
+}
+
+.myNav:hover {
+    color: deepskyblue;
+    text-decoration: none;
+    background-color: yellow;
+    border: 2px solid deepskyblue;
+}
+
+/* footer styles */
+
+.footr {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: deepskyblue;
+    color: black;
+    text-align: center;
+    font-size: 1vw;
+    padding: 5px;
+}
+
+/* homepage styles */
+
+.home-head {
+    background-color: deepskyblue;
+    color: black;
+    border-radius: 5px;
+}
+
+.steelText {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.vertImg {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blueBox {
+    background-color: yellow;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: black;
+}
