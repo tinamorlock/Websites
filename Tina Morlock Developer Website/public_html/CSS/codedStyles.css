@@ -79,3 +79,15 @@ a.myNav {
     margin-bottom: 50px;
     color: black;
 }
+
+.portImg{
+    width: 35%;
+}
+.caroSize{
+    margin-top: 50px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid deepskyblue;
+    border-radius: 4px;
+}
