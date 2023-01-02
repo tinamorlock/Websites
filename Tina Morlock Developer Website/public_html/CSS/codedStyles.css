@@ -174,12 +174,12 @@ textarea:hover {
 }
 
 .btn:hover {
-  background-color: black;
+  background-color: yellow;
   color: white;
 }
 
 .cancel:hover {
-  background-color: black;
+  background-color: deepskyblue;
   color: white;
 }
 
