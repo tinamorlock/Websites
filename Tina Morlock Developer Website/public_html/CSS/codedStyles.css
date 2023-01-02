@@ -91,3 +91,106 @@ a.myNav {
     border: 3px solid deepskyblue;
     border-radius: 4px;
 }
+
+
+/* CONTACT POPUP */
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 100px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 15px;
+  border: 2px solid deepskyblue;
+  z-index: 9;
+  width: 45%;
+  border-radius: 5px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  background-color: black;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: yellow;
+}
+
+
+
+.form-container input[type=text]:hover {
+  background-color: deepskyblue;
+  color: white;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: deepskyblue;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  margin-top: 15px;
+
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: yellow;
+  width: 100%;
+  color: black;
+}
+textarea {
+    width: 100%;
+    background-color: yellow;
+    color: black;
+}
+
+textarea:hover {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.cancel:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* END CONTACT POPUP */
+
+@media (max-width: 767px) {
+        .hidden-mobile {
+          display: none;
+        }

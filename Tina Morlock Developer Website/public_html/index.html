@@ -12,6 +12,28 @@
 
     </head>
     <body style="background-color: black; color: white">
+    <script src="scripts/morlock.js"></script>
+
+    <!-- contact form -->
+
+     <!-- contact button that opens pop up -->
+
+                <br><Br><button style="margin-top: 5px; margin-left: 60px" class="open-button hidden-mobile" onclick="openForm()">Contact Me</button>
+
+                <div class="form-popup" id="tinasForm">
+
+                    <form name="contactTina" action="https://formspree.io/f/mbjbwnya" onsubmit="return validateForm()" method="POST" id="form" class="form-container">
+
+                        <input id="name" name="name" type="text" placeholder="NAME">
+                        <input id="email" name="email" type="text" placeholder="EMAIL">
+                        <input id="phone" name="phone" type="text" placeholder="PHONE">
+                        <textarea id="message" name="message" type="text" placeholder="message"></textarea>
+                <input class="btn" id="submit" type="submit" value="GO!">
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </form>
+            </div>
+
+            <!--end contact popup-->
         
         <!-- site navigation -->
         
@@ -238,6 +260,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384- oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
         
     </body>
 </html>
